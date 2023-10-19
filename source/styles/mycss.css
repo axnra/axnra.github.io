@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+
+body {
+    font-family: Michroma, serif;
+    background: linear-gradient(90deg, #0040ff 0%, #000000 100%);
+}
+p {
+    color: aliceblue;
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.sidebar {
+    color: aliceblue;
+}
+
+.card {
+    color: aliceblue;
+    background: linear-gradient(270deg, #0040ff 0%, #000000 100%);
+}
+
+.courtext, .footer-text {
+    color: aliceblue;
+    margin: auto auto;
+}
+
+footer, .btn.btn-primary {
+
+    background: linear-gradient(270deg, #0040ff 0%, #000000 100%);
+}
+
+.call-anim {
+    animation: myAnim 2s ease 5s infinite normal forwards;
+}
+
+@keyframes myAnim {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
+        transform-origin: 50% 50%;
+    }
+
+    10% {
+        transform: rotate(8deg);
+    }
+
+    20%,
+    40%,
+    60% {
+        transform: rotate(-10deg);
+    }
+
+    30%,
+    50%,
+    70% {
+        transform: rotate(10deg);
+    }
+
+    80% {
+        transform: rotate(-8deg);
+    }
+
+    90% {
+        transform: rotate(8deg);
+    }
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
